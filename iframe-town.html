@@ -48,7 +48,7 @@
                                     initializeSnippetOnTargetWindow(iframe.contentWindow);
                                     addIframeWatcherToTargetWindow(iframe.contentWindow);
                                 });
-                            } else {
+                            } else if (iframeHref.includes('iframe-town')) {
                                 initializeSnippetOnTargetWindow(iframe.contentWindow);
                                 addIframeWatcherToTargetWindow(iframe.contentWindow);
                             }
